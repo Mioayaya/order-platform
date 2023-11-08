@@ -1,11 +1,16 @@
-import {FC} from 'react';
+import { FC} from 'react';
+import { ListOrderPageDiv } from './style';
+import OrderSearch from './cmps/order-search';
+import OrderCreate from './cmps/order-create';
 
 const ListOrderPage:FC = () => {
+
   return (
-    <div> 
-      <h2>列表页/插叙订单</h2>
-      
-    </div>
+    <ListOrderPageDiv> 
+      <div className="title">查询订单</div>
+      <OrderSearch />
+      <OrderCreate />
+    </ListOrderPageDiv>
   )
 }
 

@@ -47,11 +47,11 @@ const SignInPage:FC = () => {
       {
         !signFlag &&
         <Form 
-        form={form}
-        style={{ width: 560,marginLeft:-95 }} 
-        autoComplete='off'
-        onSubmit={onSubmit}
-      >
+          form={form}
+          style={{ width: 560,marginLeft:-95 }} 
+          autoComplete='off'
+          onSubmit={onSubmit}
+        >
         <FormItem label='邮箱' field='name' rules={[{ required: true }]} style={{marginLeft:24}}>
           <Input placeholder='请输入邮箱或手机号' />
         </FormItem>

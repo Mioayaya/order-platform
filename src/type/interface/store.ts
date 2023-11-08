@@ -1,6 +1,8 @@
+import { Iuser } from "..";
+
 export interface IstoreUser {
   signFlag: boolean;
-  userData: object
+  userData: Iuser.IuserData
 }
 
 export interface Islice {

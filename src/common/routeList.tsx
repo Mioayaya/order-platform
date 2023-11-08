@@ -53,9 +53,9 @@ const ROUTELIST:Iroute.IrouteItem[] = [
     children: [
       {
         key: '1_0',
-        title: '插叙订单',
+        title: '查询订单',
         path: '/list/order',
-        pathName: ['列表页','插叙订单'],
+        pathName: ['列表页','查询订单'],
         element: <ListOrderPage />
       },
       {

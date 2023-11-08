@@ -13,7 +13,7 @@ import { Dispatch,AnyAction } from '@reduxjs/toolkit';
 import { setSignFlag, setUserData } from './store/slices/user';
 
 function App() {
-  const signFlag = useSelector<Istore.Islice,boolean>(state => state.userSlice.signFlag) as boolean;
+  const signFlag = useSelector<Istore.Islice,boolean>(state => state.userSlice.signFlag);
   const dispatch:Dispatch<AnyAction> = useDispatch();
   const navigate = useNavigate();
 

@@ -3,8 +3,7 @@ import { Outlet } from 'react-router';
 
 const ListPage:FC = () => {
   return (
-    <div> 
-      <h1>this is List Page</h1>
+    <div>
       <Outlet />
     </div>
   )
