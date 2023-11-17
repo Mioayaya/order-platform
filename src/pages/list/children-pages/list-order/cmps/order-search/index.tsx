@@ -2,7 +2,6 @@ import { FC } from 'react';
 import { Button, Form, Grid, Input, DatePicker, InputNumber } from '@arco-design/web-react';
 import OrderSearchDiv from './style';
 import { Iorder } from '../../../../../../type';
-import { orderApi } from '../../../../../../service';
 
 const FormItem = Form.Item;
 const { RangePicker } = DatePicker;
@@ -11,10 +10,7 @@ const OrderSearch:FC = () => {
   const [ form ] = Form.useForm();
 
   const onSubmit = async (v:Iorder.Isearch) => {
-    // console.log(v);
-    const res = await orderApi.orderInfo();
-    console.log(res);
-    
+    console.log(v);
   }
 
   return (

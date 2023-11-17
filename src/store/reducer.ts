@@ -1,7 +1,9 @@
 import userSlice from "./slices/user";
+import orderSlice from './slices/order';
 
 const reducer = {
-  userSlice
+  userSlice,
+  orderSlice,
 }
 
 export default reducer;

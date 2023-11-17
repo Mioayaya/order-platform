@@ -27,3 +27,16 @@ export interface IcreateResData {
   msg: string
   success: boolean
 }
+
+export interface IorderData {
+  amount: number
+  apply_department: string
+  apply_unit: string
+  bookkeeper_id: 1002
+  created: string
+  id: number
+  lastkeeper_id: number|null
+  name: string
+  number: null
+  update: string|null
+}
